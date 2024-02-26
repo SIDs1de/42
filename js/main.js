@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
         observeParents: true,
         observeSlideChildren: true,
         grabCursor: true,
-        spaceBetween: 0,
+        spaceBetween: 16,
         scrollbar: {
           el: '.swiper-scrollbar',
           draggable: true,
@@ -66,7 +66,6 @@ document.addEventListener('DOMContentLoaded', () => {
         breakpoints: {
           400: {
             slidesPerView: 2,
-            spaceBetween: 16,
           },
           600: {
             slidesPerView: 3,
